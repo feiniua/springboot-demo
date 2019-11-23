@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>编辑雇员</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/employeeEdit.js"></script>
+</head>
+<body>
+<p>
+    id:
+    <span id="idText"></span>
+</p>
+
+<p>
+    姓:
+    <input type="text" id="lastName" style="width: 70px">
+    <span id="lastInfo"></span>
+</p>
+
+<p>
+    名:
+    <input type="text" id="firstName" style="width: 70px">
+    <span id="firstInfo"></span>
+</p>
+
+<p>
+商店：<select id="stores">
+</select>
+</p>
+
+<p>
+    <button onclick="updata()">提交</button>
+</p>
+
+<P>
+    <button onclick="window.history.back()">返回</button>
+</P>
+
+</body>
+</html>

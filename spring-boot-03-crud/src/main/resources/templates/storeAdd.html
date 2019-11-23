@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加商店</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/storeAdd.js"></script>
+</head>
+<body>
+    <p>
+
+    </p>
+    <P>
+        商店名称:<input type="text" id="name" onblur="nameHint()">
+        <span id="nameInfo"></span>
+    </P>
+    <p id="products">
+
+    </p>
+    <p>
+    <button onclick="addStore()">提交</button>
+    </p>
+    <button onclick="window.location.href='/storePage'">返回</button>
+
+</body>
+</html>

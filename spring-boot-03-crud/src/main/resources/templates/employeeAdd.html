@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加雇员</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/employeeAdd.js"></script>
+</head>
+<body>
+    <form>
+        <p>
+        姓：<input id="lastName" type="text" style="width: 70px" onblur="f1()">
+            <span id="lastInfo"></span>
+        </p>
+
+        <p>
+        名：<input id="firstName" type="text" style="width: 70px" onblur="f2()">
+            <span id="firstInfo"></span>
+        </p>
+
+        <p>
+        商店：<select id="stores">
+             </select>
+        </p>
+
+        <p>
+        <input type="button" onclick="addEmployee()" value="添加">
+        </p>
+    </form>
+
+    <P>
+        <button onclick="window.location.href='/employeePage'">返回</button>
+    </P>
+</body>
+</html>

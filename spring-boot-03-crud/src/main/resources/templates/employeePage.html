@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>雇员信息</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/employeePage.js"></script>
+</head>
+<body>
+<table cellspacing="0" id="table" border="2" >
+    <caption>雇员信息表</caption>
+    <tr>
+        <th>雇员id</th>
+        <th>姓</th>
+        <th>名</th>
+        <th>商店id</th>
+        <th>商店</th>
+    </tr>
+    <tbody id="content">
+
+    </tbody>
+</table>
+<p>
+id:
+    <input id="inputText" type="text" style="width: 30px" onblur="f3()">
+    <span id="spanText"></span>
+</p>
+<P>
+    <button onclick="findById()">按雇员id查询</button>
+    <button onclick="deleteById()">按雇员id删除</button>
+</P>
+
+<p>
+    <button onclick="findAll()">查询所有雇员</button>
+</p>
+
+<p>
+    <button id="addBtn" >添加雇员</button>
+</p>
+
+<P>
+    <button onclick="window.location.href='/'">返回</button>
+</P>
+</body>
+</html>

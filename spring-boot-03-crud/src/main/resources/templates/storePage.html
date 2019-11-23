@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商店信息</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/storePage.js"></script>
+</head>
+<body>
+    <table id="table" cellspacing="0" border="1" >
+        <caption>商店信息表</caption>
+        <tr align="center">
+            <th>商店id</th>
+            <th>商店名</th>
+            <th>雇员id.雇员</th>
+            <th>商品id.商品</th>
+        </tr>
+        <tbody id="content">
+        </tbody>
+    </table>
+    <p>
+        <button onclick="findAll()">查询所有</button>
+    </p>
+    <p>
+        <button onclick="addStore()">添加商店</button>
+    </p>
+    <p>
+        <button onclick="window.location.href='/' ">返回</button>
+    </p>
+
+</body>
+</html>

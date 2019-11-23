@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加商品</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/productAdd.js"></script>
+</head>
+<body>
+    <p>
+        <span>商品名:</span>
+        <input type="text" id="name" style="width: 100px" onblur="nameWarn()">
+        <span id="nameInfo"></span>
+    </p>
+    <p>
+        <span >单价:&nbsp&nbsp&nbsp  </span>
+        <input type="text" id="price" style="width: 40px" onblur="priceWarn()">
+        <span id="priceInfo"></span>
+    </p>
+    <p>
+        <button id="submitBtn">提交</button>
+    </p>
+    <p>
+        <button id="backBtn">返回</button>
+    </p>
+</body>
+</html>
